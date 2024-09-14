@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume Builder</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom profile picture style */
+        .profile-picture {
+            background-image: url('https://scontent.xx.fbcdn.net/v/t1.15752-9/457723550_1059775119199325_8125527567513539851_n.jpg?stp=dst-jpg_s403x403&_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_ohc=2UfYWmKcmHIQ7kNvgGtHTbW&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&_nc_gid=ACfet9FmfcJYDvryTzJNmvr&oh=03_Q7cD1QGsnKsonezQnWIh6luh78Wo7OlPXWb_7X3hSJ5sNArvXQ&oe=670CFE9C');
+            background-size: cover;
+            background-position: center;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            border: 4px solid #1E3A8A; /* Blue border */
+            margin: auto;
+        }
+
+        /* Background Gradient */
+        .background-gradient {
+            background: linear-gradient(135deg, #3B82F6 0%, #1E40AF 100%); /* Blue gradient */
+        }
+    </style>
+</head>
+<body class="font-sans leading-normal tracking-normal background-gradient">
+
+    <div class="max-w-4xl mx-auto my-10 p-8 bg-white shadow-lg rounded-lg">
+        <header class="text-center mb-8">
+            <div class="profile-picture mb-4"></div>
+            <h1 class="text-4xl font-bold text-gray-800 mt-4">Syeda Eshal Murtaza</h1>
+            <p class="text-xl text-gray-600">9th-Grade Student & Aspiring Frontend Developer</p>
+        </header>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4 border-b-2 border-blue-500">About Me</h2>
+            <p class="text-gray-700">Based in Karachi, Pakistan, I am a 9th-grade student with a keen interest in frontend development. I am passionate about creating engaging and user-friendly web experiences and am actively learning HTML, CSS, and JavaScript. My goal is to build innovative web projects and continuously enhance my skills in web technologies. Driven by curiosity and creativity, I strive to develop impactful and well-designed web applications.</p>
+        </section>
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4 border-b-2 border-blue-500">Skills</h2>
+            <ul class="list-disc list-inside text-gray-700">
+                <li>HTML</li>
+                <li>Tailwind CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4 border-b-2 border-blue-500">Contact</h2>
+            <p class="text-gray-700">
+                <a href="mailto:syedaeshal75@gmail.com" class="text-blue-500 hover:underline">syedaeshal75@gmail.com</a>
+            </p>
+            <p class="text-gray-700">
+                <a href="https://github.com/SyedaEshalMurtaza" class="text-blue-500 hover:underline">GitHub</a>
+            </p>
+            <p class="text-gray-700">
+                <a href="https://www.linkedin.com/in/syeda-eshal-murtaza-9908152b7" class="text-blue-500 hover:underline">LinkedIn</a>
+            </p>
+            <p class="text-gray-700">
+                <a href="https://www.instagram.com/syedaeshalmurtaza_/" class="text-blue-500 hover:underline">Instagram</a>
+            </p>
+        </section>
+    </div>
+
+</body>
+</html>
